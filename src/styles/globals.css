@@ -56,3 +56,20 @@ button:disabled {
 .grabbing * {
   cursor: grabbing;
 }
+/* 隐藏右上角的 GitHub 猫头图标 */
+.i-ri-github-line, 
+a[href*="github.com"] {
+  display: none !important;
+}
+
+/* 隐藏右上角的“三个点”菜单按钮 */
+/* 注意：这个类名通常对应三个点图标 */
+.i-ri-more-2-fill,
+.i-ri-more-fill {
+  display: none !important;
+}
+
+/* 如果你想顺便隐藏底部的 MIT License 文字 */
+footer {
+  display: none !important;
+}
